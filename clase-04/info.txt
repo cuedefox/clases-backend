@@ -1,0 +1,21 @@
+{
+  "contenidoStr": "{\n  \"name\": \"clase-04\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"clase4.js\",\n  \"dependencies\": {\n    \"init\": \"^0.1.2\",\n    \"daemon\": \"^1.1.0\"\n  },\n  \"devDependencies\": {},\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n",
+  "contenidoObj": {
+    "name": "clase-04",
+    "version": "1.0.0",
+    "description": "",
+    "main": "clase4.js",
+    "dependencies": {
+      "init": "^0.1.2",
+      "daemon": "^1.1.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  },
+  "size": 318
+}
