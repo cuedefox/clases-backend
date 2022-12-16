@@ -1,0 +1,18 @@
+1- crear base : mongod --dbpath clase18
+2- abrir consola: mongosh (otra terminal)
+3- use empresa
+4- db.createCollection("clientes")
+5- db.clientes.insertOne({nombre: 'Rodrigo', edad: 21})
+6- db.clientes.insertMany([
+    {nombre: 'Lucia', edad: 25},
+    {nombre: 'Valentin', edad: 9},
+    {nombre: 'Luna', edad: 17}
+])
+7- db.articulos.insertMany([
+    {nombre: 'Remera', precio: 1500, stock: 7},
+    {nombre: 'Arito', precio: 750, stock: 23},
+    {nombre: 'Zapatillas', precio: 25000, stock: 3},
+])
+8- show collections
+9- 639af20867173f5ca6500d4d
+10- db.articulos.estimatedDocumentCount() || db.articulos.countDocuments()
