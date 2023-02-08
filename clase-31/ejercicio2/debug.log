@@ -1,0 +1,13 @@
+[2023-02-08T07:15:29.783] [INFO] prod - Server listening on port 8080
+[2023-02-08T07:15:52.158] [WARN] prod - Ruta GET /favicon.ico no implementada
+[2023-02-08T07:15:53.827] [INFO] prod - Parametros correctos: 3 + 115 = 118
+[2023-02-08T07:15:53.872] [WARN] prod - Ruta GET /favicon.ico no implementada
+[2023-02-08T07:15:55.388] [WARN] prod - Ruta GET /service_worker_cache.js no implementada
+[2023-02-08T07:16:02.488] [WARN] prod - Ruta GET /asasd no implementada
+[2023-02-08T07:16:02.548] [WARN] prod - Ruta GET /favicon.ico no implementada
+[2023-02-08T07:16:04.471] [WARN] prod - Ruta GET /service_worker_cache.js no implementada
+[2023-02-08T07:16:12.528] [WARN] prod - Ruta GET /favicon.ico no implementada
+[2023-02-08T07:16:14.035] [WARN] prod - Ruta GET /service_worker_cache.js no implementada
+[2023-02-08T07:16:19.312] [ERROR] prod - parametros invalidos
+[2023-02-08T07:16:19.367] [WARN] prod - Ruta GET /favicon.ico no implementada
+[2023-02-08T07:16:21.073] [WARN] prod - Ruta GET /service_worker_cache.js no implementada

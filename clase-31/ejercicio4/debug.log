@@ -1,0 +1,7 @@
+{"level":30,"time":1675853235360,"pid":13432,"hostname":"DESKTOP-8SAP7PN","msg":"Server listening on port 8080"}
+{"level":50,"time":1675853256566,"pid":13432,"hostname":"DESKTOP-8SAP7PN","n1":3,"n2":null,"msg":"parametros invalidos"}
+{"level":40,"time":1675853256671,"pid":13432,"hostname":"DESKTOP-8SAP7PN","msg":"Ruta GET /favicon.ico no implementada"}
+{"level":40,"time":1675853258607,"pid":13432,"hostname":"DESKTOP-8SAP7PN","msg":"Ruta GET /service_worker_cache.js no implementada"}
+{"level":30,"time":1675853271509,"pid":13432,"hostname":"DESKTOP-8SAP7PN","n1":3,"n2":115,"msg":"Parametros correctos: 3 + 115 = 118"}
+{"level":40,"time":1675853271568,"pid":13432,"hostname":"DESKTOP-8SAP7PN","msg":"Ruta GET /favicon.ico no implementada"}
+{"level":40,"time":1675853273217,"pid":13432,"hostname":"DESKTOP-8SAP7PN","msg":"Ruta GET /service_worker_cache.js no implementada"}
