@@ -1,5 +1,4 @@
 const fs = require('fs');
-const {error} = require('console');
 
 const dirName = './files2';
 const fileName = dirName + '/ejemploCall.txt';
