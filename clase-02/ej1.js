@@ -50,3 +50,10 @@ objetos.forEach(obj => {
 
 console.log(newArray);
 console.log(totalCantidadProductos);
+
+////////////// Nulish  /////////////////////
+let test = undefined;
+//.......logica
+let nullish = test ?? 'sin valor';
+
+console.log(nullish);

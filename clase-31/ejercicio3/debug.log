@@ -1,8 +1,0 @@
-{"level":"info","message":"Server listening on port 8080"}
-{"level":"info","message":"Server listening on port 8080"}
-{"level":"info","message":"Parametros correctos: 3 + 123 = 126"}
-{"level":"warn","message":"Ruta GET /favicon.ico no implementada"}
-{"level":"warn","message":"Ruta GET /service_worker_cache.js no implementada"}
-{"level":"error","message":"parametros invalidos"}
-{"level":"warn","message":"Ruta GET /favicon.ico no implementada"}
-{"level":"warn","message":"Ruta GET /service_worker_cache.js no implementada"}
