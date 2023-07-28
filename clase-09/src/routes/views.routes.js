@@ -22,6 +22,7 @@ router.get('/food', (req, res) => {
     res.render('index', {
         user: testUser,
         isAdmin: testUser.role === 'admin',
+        style: 'index.css',
         food
     })
 })
@@ -38,6 +39,7 @@ router.get('/food2', (req, res) => {
     res.render('index', {
         user: testUser,
         isAdmin: testUser.role === 'admin',
+        style: 'index.css',
         food
     })
 })
