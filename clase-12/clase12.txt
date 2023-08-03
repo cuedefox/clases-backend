@@ -1,0 +1,1 @@
+instalamos mongo y creamos base desde mongosh.
