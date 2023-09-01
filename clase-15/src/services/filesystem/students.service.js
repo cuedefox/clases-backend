@@ -42,13 +42,8 @@ export default class StudentService {
 
     getAll = async () =>{
         try {
-            //Validamos que exista ya el archivo con usuarios sino se crea vacío para ingresar nuevos:
             await this.#prepararDirectorioBase();
-            //leemos el archivo
             let data = await this.#fileSystem.promises.readFile(this.#filePath, "utf-8");
-            //Cargamos los usuarios encontrados para agregar el nuevo:
-            //Obtenemos el JSON String 
-            //console.info("Archivo JSON obtenido desde archivo: ");
             console.log(data);
             this.#students = JSON.parse(data);
             console.log("Usuarios encontrados: ");
