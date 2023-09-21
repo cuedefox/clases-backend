@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 //Passport imports
 import passport from 'passport';
+import initializePassport from './config/passport.config.js';
 //TODO: Add your passport config path file.
 
 
@@ -33,8 +34,10 @@ app.use(express.static(__dirname+'/public'))
 
 //TODO (Solo si usar Cookies): inicializar el cookie parser.
 
-//TODO: Inicializar passport:
-
+app.use(cookieParser("CoderS3cr3tC0d3"));
+//Inicializar passport:
+initializePassport();
+app.use(passport.initialize());
 
 //Declaración de Routers:
 app.use('/',viewsRouter);
