@@ -49,6 +49,7 @@ function auth(req, res, next){
     } else{
         return res.status(403).send("Usuario no autorizado para ingresar a este recurso.");
     }
+    
 }
 
 router.get('/private', auth, (req, res) =>{

@@ -7,32 +7,10 @@ const router = Router();
 router.use(cookieParser("CoderS3cr3tC0d3"));
 
 router.get('/',(req,res)=>{
-    res.render('index',{})
-});
-
-//Session management:
-router.get("/session", (req, res) => {
-    if (req.session.counter) {
-        req.session.counter++;
-        res.send(`Se ha visitado este sitio ${req.session.counter} veces.`);
-    } else {
-        req.session.counter = 1;
-        res.send("Bienvenido!");
-    }
+    res.render('index',{});
 });
 
 //Login
-router.get('/login', (req, res) => {
-    const {username, password} = req.query;
-    if (username !== 'pepe' || password !== 'pepepass'){
-        return res.status(401).send("Login Failed, check your username and password.");
-    } else {
-        req.session.user = username;
-        req.session.admin = true;
-        res.send('Login Successful !');
-    }
-});
-
 router.get("/logout", (req, res) => {
     req.session.destroy(error => {
         if (error){
@@ -44,7 +22,7 @@ router.get("/logout", (req, res) => {
 
 //Auth middleware:
 function auth(req, res, next){
-    if (req.session.user === 'pepe' && req.session.admin) {
+    if (req.session.user && req.session.admin) {
         return next();
     } else{
         return res.status(403).send("Usuario no autorizado para ingresar a este recurso.");
